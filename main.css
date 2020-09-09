@@ -2,20 +2,33 @@ body{
     background-color: #f8f8f8;
     text-align: left;
 }
-header{
+    header{
 
-}
-main{
-    
+    }
+        header > img{
 
-}
+        }
+        nav{
+
+        }
+            a{
+
+            }
+            a:last-of-type{
+                
+            }
+    main{
+
+    }
+        div{
+            h1{
+
+            }
+            p{}
+
+        }
+        main > img{
+
+        }
+
 /* cmd + / komentavimas */
-div{
-    
-}
-h1{
-
-}
-p{
-
-}
