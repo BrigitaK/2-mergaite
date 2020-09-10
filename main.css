@@ -19,6 +19,7 @@ body{
 
         }
             a{
+                display: inline-block;
                 color: #bbbbbb;
                 font-size: 15px;
                 text-decoration: none;
@@ -26,12 +27,14 @@ body{
 
             }
             a:last-of-type{
+                display: inline-block;
                 color: #bbbbbb;
                 font-size: 15px;
                 margin-left: 20px;
-                background-color: blue;
-                padding: 10px;
-
+                border: 2px solid #bbbbbb;
+                padding: 5px 20px;
+                border-radius: 25px;
+                line-height: 20px;
             }
     main{
         width: 1000px;
@@ -48,10 +51,14 @@ body{
             color: #9e9e9e;
         }
             h1{
+                display: inline-block;
                 font-size: 70px;
+                margin-bottom: 1px;
             }
             p{
-                font-size: 35px;            }
+                display: inline-block;
+                font-size: 35px;  
+                margin-top: 1px;          }
         main > img{
             display: inline-block;
             width: 50%;
