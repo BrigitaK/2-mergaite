@@ -4,6 +4,7 @@ body{
     header{
 
         width:1000px;
+        margin-top: 30px;
         margin-left: calc( 50% - 500px);
         display: inline-block;
 
@@ -18,36 +19,38 @@ body{
 
         }
             a{
+                color: red;
+                font-size: 20px;
+                text-decoration: none;
 
             }
             a:last-of-type{
+                color: green;
+                font-size: 20px;
 
             }
     main{
-        background-color: red;
         width: 1000px;
         margin-left: calc( 50% - 500px);
+        display: inline-block;
         
     }
         div{
             display: inline-block;
             width: 40%;
             float: left;
-            margin-right: 10%;
             margin-top: 100px;
             h1{
-                display: inline-block;
 
             }
             p{
-                display: inline-block;
             }
 
         }
         main > img{
             display: inline-block;
             width: 50%;
-            float: left;
+            float: right;
 
         }
 
